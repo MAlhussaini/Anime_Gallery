@@ -1,0 +1,164 @@
+body {
+  margin: 35px 7% 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: right;
+}
+
+.logo {
+  margin: auto;
+  order: -1;
+  width: 100px;
+  height: 100px;
+}
+
+hr {
+  border-width: 3px;
+}
+
+.name-tag {
+  width: 80%;
+}
+
+.main-img {
+  order: 1;
+  width: 80%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.theme {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+span {
+  float: left;
+  display: flex;
+  float: left;
+}
+
+.mini-container {
+  width: 33.33%;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+#subtitle {
+  color: rgb(119, 134, 146);
+  margin: 25px;
+}
+
+.mini-img {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    margin: 35px 10% 0;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  body {
+    width: 900px;
+    margin: 35px auto;
+  }
+
+  #subtitle {
+    color: rgb(119, 134, 146);
+    margin: 25px 50px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  body {
+    margin: 35px 5% 0;
+  }
+  .mini-container {
+    width: 100%;
+  }
+  #subtitle {
+    text-align: center;
+  }
+
+  .theme {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.25em;
+  }
+
+  .light {
+    width: 50%;
+    float: left;
+  }
+
+  .dark {
+    width: 50%;
+    float: right;
+  }
+
+  .main-img {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+
+  .mini-img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mini-img {
+    width: 80%;
+    height: 200px;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+.name-tag {
+  font-size: 12px;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+h5 {
+  font-size: 14px;
+}
+  
+body {
+  font-family: 'Caveat', cursive;
+}
+}
